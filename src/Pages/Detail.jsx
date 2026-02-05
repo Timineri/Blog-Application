@@ -1,8 +1,3 @@
-// import React from "react";
-// export default function Details(){
-//     return <div>Details Page</div>
-// }
-
 import { useParams, useNavigate } from "react-router";
 
 function Details() {
@@ -12,7 +7,7 @@ function Details() {
     navigate("/");
   };
 
-  const { body } = useParams();
+  const { body} = useParams();
   return (
     <div>
       <h2>{body}</h2>

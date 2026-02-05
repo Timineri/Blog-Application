@@ -1,8 +1,7 @@
 import { Routes, Route } from "react-router";
-import Home from "./Home";
-import Details from "./Detail";
-import NavBar from "./NavBar";
-import ErrorPage from "./Error";
+import Home from "./Pages/Home";
+import Details from "./Pages/Detail";
+import ErrorPage from "./Pages/Error";
 import './index.css';
 
 export default function App() {
