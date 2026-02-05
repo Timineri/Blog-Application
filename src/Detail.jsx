@@ -12,13 +12,12 @@ function Details() {
     navigate("/");
   };
 
-  const { id } = useParams();
+  const { body } = useParams();
   return (
     <div>
-      <h2>Welcome, {id}!</h2>
-      <p>This is your profile page.</p>
+      <h2>{body}</h2>
 
-      <button onClick={goHome}>Go to Home</button>
+      <button class="btn btn-primary" onClick={goHome}>Back to Home</button>
     </div>
   );
 }
